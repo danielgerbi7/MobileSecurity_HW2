@@ -75,7 +75,12 @@ public class Activity_Game extends AppCompatActivity {
     }
 
     private void findViews() {
-        this.arrows = new ImageButton[]{(ImageButton) findViewById(R.id.game_BTN_left), (ImageButton) findViewById(R.id.game_BTN_right), (ImageButton) findViewById(R.id.game_BTN_up), (ImageButton) findViewById(R.id.game_BTN_down)};
+        this.arrows = new ImageButton[]{
+                (ImageButton) findViewById(R.id.game_BTN_left), // 0 - placeholder
+                (ImageButton) findViewById(R.id.game_BTN_right), // 1 - placeholder
+                (ImageButton) findViewById(R.id.game_BTN_up), // 2 - placeholder
+                (ImageButton) findViewById(R.id.game_BTN_down), // 3 - placeholder
+        };
     }
 }
 
